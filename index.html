@@ -3,182 +3,238 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Portfolio Web</title>
-    <link rel="stylesheet" href="css/app.css" />
-    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet"/>
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inknut+Antiqua:wght@300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
-    <main>
-      <header class="header">
-        <a href="#" class="logo">Portfolio Web</a>
-        <div class="bx bx-menu" id="menu-icon"></div>
-        <nav class="navbar">
-          <a href="#home" class="active">Home</a>
-          <a href="#about me">About Me</a>
-          <a href="#my skill">My Skill</a>
-          <a href="#why hire me">Why hire me</a>
-          <a href="#portofolio">Portfolio</a>
-          <a href="#contact">Contact</a>
-        </nav>
-      </header>
-      <section class="home" id="home">
-        <div class="home-content">
-          <h3 class="subtitle">Hello,</h3>
-          <h1>I'm Arul Misbahul Khoer</h1>
-          <div class="text-animate">
-            <h3>Frontend Developer</h3>
-            <a href="#"><i class="bx bxl-linkedin"></i></a>
-            <a href="#"><i class="bx bxl-twitter"></i></a>
-            <a href="#"><i class='bx bxs-phone'></i></a>
-          </div>
+    <!--Header-->
+    <header>
+      <a class="logo">Portfolio Web</a>
+      <nav>
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">My Skill</a>
+        <a href="#">Portfolio</a>
+        <a href="#">Contacts</a>
+      </nav>
+    </header>
+    <!-- Hero Section -->
+    <section class="Hero">
+      <div class="Hero-sosmed">
+        <h1>Hello</h1>
+        <h1 class="Hero-nama">I'm Arul Misbahul Khoer</h1>
+        <div class="garis-hero"></div>
+        <h1 class="Hero-text">Frontend Developer</h1>
+        <div class="hero-logo">
+          <img src="img/Phone.png" alt="" width="60" />
+          <img src="img/LinkedIn.png" alt="" width="60" />
+          <img src="img/Twitter.png" alt="" width="60" />
+        </div>
+      </div>
+      <div class="Hero-foto">
+        <img src="img/1.png" alt="" width="300" />
+        <div class="kotak-2"></div>
+      </div>
+    </section>
+    <!-- About Me -->
+    <section class="about">
+      <div class="box-about">
+        <div class="about-kanan">
+          <h1>About Me</h1>
+          <div class="garis-about"></div>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            Accusantium, eveniet. Soluta consequuntur laborum facilis veritatis
-            blanditiis assumenda dolores beatae eum, facere vel nam velit, sed
-            aut, ea voluptatem impedit numquam?
-
-      <section class="about me" id="about me">
-        <h2 class="heading">About <span>Me</span></h2>
-        <div class="about-img">
-          <img src="image/arulmisbahulkhoer.jpg" alt="Arul Misbahul Khoer" />
-          <span class="circle-spin"></span>
+            I'm a frontend developer, I used to work with teams to create both
+            desktop and mobile apps. I am responsible for creating the pages and
+            views on the application. I created a look that was already designed
+            by the UI designer team. I'm used to making mobile-based apps.
+          </p>
         </div>
-        <div class="about-content">
-          <article>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis
-            laboriosam ut, nesciunt fugiat dolorum ab illo maxime commodi velit
-            recusandae et reiciendis aut voluptatem assumenda quam ad ea.
-            Corporis modi earum ab explicabo sit pariatur voluptatem rerum
-            beatae praesentium libero culpa consequuntur, quia laborum
-            blanditiis cumque, deserunt sed. Error, architecto.
-          </article>
-          <div class="btn-box">
-            <a href="#" class="btn">Read More</a>
-          </div>
+        <div class="about-kiri">
+          <div><img src="img/2.png" alt="" width="300" /></div>
         </div>
-
-      </section>
-      <section class="skill" id="skill">
-        <h2 class="heading">My <span>Skill</span></h2>
-        <div class="skill-row">
-          <div class="skill-column">
-            <h3 class="title">Coding Skill</h3>
-            <div class="skill-box">
-              <div class="skill-content">
-                <div class="progress">
-                  <h3>HTML <span>40%</span></h3>
-                  <div class="bar"><span></span></div>
-                </div>
-
-                <div class="progress">
-                  <h3>CSS <span>45%</span></h3>
-                  <div class="bar"><span></span></div>
-                </div>
-
-                <div class="progress">
-                  <h3>Javascript <span>30%</span></h3>
-                  <div class="bar"><span></span></div>
-                </div>
-              </div>
+      </div>
+    </section>
+    <!-- My Skill -->
+    <section class="Skill">
+      <h1>My Skill</h1>
+      <div class="garis"></div>
+      <div class="box-skill">
+        <div class="text-skill">
+          <ul>
+            <li>HTML <strong>90%</strong></li>
+            <li>CSS <strong>85%</strong></li>
+            <li>HTML <strong>65%</strong></li>
+            <li>Javascript <strong>85%</strong></li>
+            <li>Flutter <strong>80%</strong></li>
+          </ul>
+        </div>
+        <div class="skill-foto">
+          <img src="img/logo.png" alt="" />
+        </div>
+      </div>
+    </section>
+    <!-- Why Hire Me -->
+    <section class="reason">
+      <h1>Why Hire Me?</h1>
+      <div class="garis"></div>
+      <div class="box">
+        <p>
+          I believe that I am a good fit for this position because of my
+          combination of experience, skills, and dedication to the job. I also
+          have skills in programming languages such as HTM, CSS, JS and Flutter
+          that I believe will allow me to contribute significantly to the team
+          and achieve your company's goals. I am very excited about this
+          opportunity and ready to give the best of myself to achieve success
+          together.
+        </p>
+      </div>
+    </section>
+    <!-- Client Testimonials -->
+    <section class="Testimonials">
+      <h1>Client Testimonials</h1>
+      <div class="garis"></div>
+      <div class="box-testimonials">
+        <div class="clients">
+          <div class="client">
+            <div>
+              <img src="img/ff.png" alt="" width="100" />
+            </div>
+            <div>
+              <h3>Christoper Nolan</h3>
             </div>
           </div>
-        </div>
-      </section>
-      <section class="why hire me" id="why hire me">
-        <h2 class="heading"><span>Why Hire Me</span></h2>
-        <div class="about-img">
-          <span class="circle-spin"></span>
-        </div>
-        <div class="about-content">
-          <article>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis
-            laboriosam ut, nesciunt fugiat dolorum ab illo maxime commodi velit
-            recusandae et reiciendis aut voluptatem assumenda quam ad ea.
-            Corporis modi earum ab explicabo sit pariatur voluptatem rerum
-            beatae praesentium libero culpa consequuntur, quia laborum
-            blanditiis cumque, deserunt sed. Error, architecto.
-          </article>
-          <div class="btn-box">
-            <a href="#" class="btn">Read More</a>
+          <div class="ulasan">
+            <p>
+              "I would like to pay tribute to the outstanding contribution of
+              Arul Misbahul Khoer as a member of our team in the role of
+              Frontend Developer. Since joining the team, Arul has shown
+              tremendous commitment to the projects we work on."
+            </p>
           </div>
         </div>
-      </section>
-      <section class="client testimonials" id="client testimonials">
-        <h2 class="heading"><span>Client testimonials</span></h2>
-        <div class="about-img">
-          <span class="circle-spin"></span>
+        <div class="clients">
+          <div class="client">
+            <div>
+              <img src="img/ff2.png" alt="" width="100" />
+            </div>
+            <div>
+              <h3>Taylor Swift</h3>
+            </div>
+          </div>
+          <div class="ulasan">
+            <p>
+              "I admire the outstanding contribution of Arul Misbahul Khoer in
+              leading several key frontend projects within our team. Since
+              joining the company, Arul has demonstrated very high technical
+              competence in developing attractive and responsive user
+              interfaces.”
+            </p>
+          </div>
         </div>
-        <div class="about-content">
-          <article>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis
-            laboriosam ut, nesciunt fugiat dolorum ab illo maxime commodi velit
-            recusandae et reiciendis aut voluptatem assumenda quam ad ea.
-            Corporis modi earum ab explicabo sit pariatur voluptatem rerum
-            beatae praesentium libero culpa consequuntur, quia laborum
-            blanditiis cumque, deserunt sed. Error, architecto.
-          </article>
-          <article>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-            Tempore deleniti, exercitationem reprehenderit excepturi 
-            omnis quas sed quam aliquid natus recusandae 
-            laboriosam tenetur quaerat similique consequuntur dolore 
-            soluta autem ad aspernatur.
-          </article>
-      
-      <section class="portfolio" id="portofolio">
-        <h2 class="heading">Portfolio <span></span></h2>
-        <div class="about-img">
-          <img src="image/arulmisbahulkhoer.jpg" alt="Arul Misbahul Khoer" />
-          <img src="image/arulmisbahulkhoer.jpg" alt="Arul Misbahul Khoer" />
-          <img src="image/arulmisbahulkhoer.jpg" alt="Arul Misbahul Khoer" />
-          <img src="image/arulmisbahulkhoer.jpg" alt="Arul Misbahul Khoer" />
-          <span class="circle-spin"></span>
-        </div>
-        <div class="about-content">
-
-      <section class="contact" id="contact">
-        <h2 class="heading"></h2>
-        <div class="twitter">
-          <a href="#"><i class="bx bxl-twitter"></i></a>
-          <p>@MsharrMsharr14</p>
-        </div>
-        <div class="phone">
-          <a href="#"><i class='bx bxs-phone'></i></a>
-          <p>+6285759113979</p>
-        </div>
-        <div class="gmail">
-          <a href="#"><i class='bx bxl-gmail'></i></a>
-          <p>@arulmisbahulkhoer1704.com</p>
-        </div>
-      </section>
-      <nav class="navbar">
-        <a href="#home" class="active">Home</a>
-        <a href="#about me">About Me</a>
-        <a href="#my skill">My Skill</a>
-        <a href="#why hire me">Why hire me</a>
-        <a href="#portofolio">Portfolio</a>
-        <a href="#contact">Contact</a>
-      </nav>
-      <div>
-        <p>arulmisbahulkhoer1704@gmail.com</p>
       </div>
-      <div>
-        <p>+628759113979</p>
-      </div>
-      <div>
-        <p>@MsharrMsharr14</p>
-      </div>
-      <footer class="footer">
-        <div class="footer-text">
-          <p>Copyright &copy; @arulmisbahulkhoer.com | All Rights Reserved.</p>
+    </section>
+    <!-- Portfolio -->
+    <section class="Portfolio">
+      <h1>Portfolio</h1>
+      <div class="garis"></div>
+      <div class="box">
+        <div class="items">
+          <img src="img/p4.png" alt="" width="200" />
+          <div class="text-items">
+            <h4>Onine Caffe Menu</h4>
+            <p>2023</p>
+          </div>
         </div>
-
-        <div class="footer-icontop">
-          <a href="#"><i class="bx bx-up-arrow-alt"></i></a>
+        <div class="items">
+          <img src="img/p1.png" alt="" width="200" />
+          <div class="text-items">
+            <h4>Vector Calculator</h4>
+            <p>2023</p>
+          </div>
         </div>
-      </footer>
-
-      <script src="js/script.js"></script>
-    </main>
+        <div class="items">
+          <img src="img/p2.png" alt="" width="200" />
+          <div class="text-items">
+            <h4>Online Food Website</h4>
+            <p>2023</p>
+          </div>
+        </div>
+        <div class="items">
+          <img src="img/p3.png" alt="" width="200" />
+          <div class="text-items">
+            <h4>Portofolio Design</h4>
+            <p>2024</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Contacts -->
+    <section class="contacts">
+      <h1>Contacts</h1>
+      <div class="garis"></div>
+      <div class="contacts-box">
+        <div class="contacts-item">
+          <div class="item-ig">
+            <img src="img/t2.png" alt="" width="100" />
+          </div>
+          <div>
+            <p>@MsharrMsharr14</p>
+          </div>
+        </div>
+        <div class="contacts-item">
+          <div class="item-phone">
+            <img src="img/v2.png" alt="" width="100" />
+          </div>
+          <div>
+            <p>085759113979</p>
+          </div>
+        </div>
+        <div class="contacts-item">
+          <div class="item-email">
+            <img src="img/g1.png" alt="" width="100" />
+          </div>
+          <div>
+            <p>arulmisbahul1704@gmail.com</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Footer -->
+    <footer>
+      <h2>Arul Misbahul Khoer</h2>
+      <div class="garis-footer"></div>
+      <div class="footer-nav">
+        <a href="#">Home</a>
+        <a href="#">About me</a>
+        <a href="#">My Skill</a>
+        <a href="#">Why Hire Me?</a>
+        <a href="#">Client Testimonials</a>
+        <a href="#">Portfolio</a>
+        <a href="#">Contacts</a>
+      </div>
+      <div class="footer-contact">
+        <a href="arulmisbahulkhoer@gmail.com">arulmisbahulkhoer@gmail.com</a>
+        <a>+6285759113979</a>
+        <a>@MsharrMsharr14</a>
+      </div>
+      <div class="footer-dua">
+        <a href="#">Privasi Policy</a>
+        <a href="#">Sitemap</a>
+      </div>
+      <div class="footer-sosmed">
+        <img src="img/Twitter.png" alt="" width="50" />
+        <img src="img/Phone.png" alt="" width="50" />
+        <img src="img/g1.png" alt="" width="50" />
+      </div>
+      <div class="footer-text">
+        <a href="#">©arulmisbahulkhoer.com All right reserved 2024</a>
+      </div>
+    </footer>
   </body>
 </html>

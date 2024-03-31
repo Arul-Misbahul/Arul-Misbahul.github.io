@@ -1,0 +1,483 @@
+* {
+  margin: 0;
+  padding: 0;
+  /* border: 1px solid black;  */
+}
+
+body {
+  background-color: #3035ae;
+  font-family: "Inknut Antiqua", sans-serif;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 200px;
+  padding-top: 20px;
+}
+
+header .logo {
+  color: black;
+}
+
+header nav a {
+  color: black;
+  text-decoration: none;
+}
+
+header nav {
+  width: 500px;
+  display: flex;
+  justify-content: space-between;
+  margin-right: 100px;
+}
+
+.Hero {
+  display: flex;
+  /* justify-content: space-evenly;  */
+  margin-top: 80px;
+}
+
+.Hero-sosmed {
+  margin-top: 50px;
+  color: black;
+  margin-left: 200px;
+}
+
+.Hero .hero-logo {
+  margin-top: -50px;
+}
+
+.Hero-sosmed h1 {
+  font-size: 35px;
+}
+
+.Hero .Hero-sosmed .garis-hero {
+  width: 520px;
+  height: 3px;
+  background-color: black;
+  margin-top: -20px;
+}
+
+.Hero .Hero-sosmed .Hero-nama {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.Hero .Hero-sosmed .Hero-text {
+  margin-bottom: 20px;
+  padding-bottom: 10px;
+  margin-top: -20px;
+}
+
+.Hero-foto {
+  background-color: black;
+  position: relative;
+  margin-top: 50px;
+  margin-left: 200px;
+}
+
+.Hero .Hero-foto .kotak-1 {
+  border: 5px solid #d8f71b;
+  width: 200px;
+  height: 210px;
+  background-color: #d8f71b;
+  position: absolute;
+  z-index: 1;
+  margin-top: -100px;
+  margin-left: 140px;
+  border-radius: 12px;
+}
+
+.Hero .Hero-foto .kotak-2 {
+  /* border: 5px solid #74f2fa; */
+  width: 200px;
+  height: 210px;
+  background-color: #9b9135;
+  position: absolute;
+  z-index: 2;
+  margin-top: -100px;
+  margin-left: 70px;
+  border-radius: 12px;
+}
+
+.Hero .Hero-foto img {
+  position: absolute;
+  width: 200px;
+  height: 210px;
+  z-index: 3;
+  border-radius: 12px;
+  margin-top: -30px;
+}
+
+.about {
+  width: 100%;
+  margin-top: 100px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.box-about {
+  width: 70%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.about .about-kanan {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.about .about-kiri img {
+  width: 350px;
+  margin-top: 20px;
+}
+
+.about .about-kiri {
+  margin-left: 50px;
+}
+
+.about-kiri .about-kotak {
+  width: 300px;
+  height: 300px;
+  background-color: #9b9135;
+  position: fixed;
+}
+
+.about .about-kanan .garis-about {
+  width: 250px;
+  height: 3px;
+  background-color: black;
+  margin-top: -30px;
+}
+.about .about-kanan button {
+  background-color: #59ace8;
+  padding: 5px;
+  width: 100px;
+  color: white;
+}
+
+.about-kanan h1 {
+  text-align: center;
+  border-right-width: 3px;
+  display: inline-block;
+  padding-bottom: 5px;
+  font-size: 48px;
+}
+
+.about .about-kanan p {
+  margin-top: 10px;
+}
+
+.Skill {
+  width: 100%;
+}
+
+.Skill .box-skill {
+  display: flex;
+  justify-content: space-between;
+  background-color: #9b9135;
+  width: 40%;
+  margin: auto;
+  align-items: center;
+  padding-right: 20px;
+  border-radius: 20px;
+  overflow: auto;
+}
+
+.Skill .garis {
+  height: 3px;
+  width: 200px;
+  background-color: black;
+  margin: auto;
+  margin-top: -20px;
+  margin-bottom: 30px;
+}
+
+.Skill h1 {
+  text-align: center;
+  font-size: 48px;
+}
+
+.Skill .box-skill .skill-foto img {
+  width: 250px;
+}
+
+.Skill .text-skill {
+  border-radius: 20px;
+  padding: 20px;
+  list-style: none;
+  color: black;
+}
+
+.Skill .text-skill ul {
+  list-style: none;
+}
+
+.reason {
+  margin-top: 100px;
+  color: black;
+}
+
+.reason h1 {
+  text-align: center;
+  color: black;
+  font-size: 48px;
+}
+
+.reason .garis {
+  height: 3px;
+  width: 300px;
+  background-color: black;
+  margin: auto;
+  margin-top: -20px;
+  margin-bottom: 30px;
+}
+
+.reason .box {
+  width: 800px;
+  background-color: #9b9135;
+  border-radius: 30px;
+  margin: auto;
+  padding: 20px;
+}
+
+.Testimonials {
+  margin-top: 100px;
+}
+
+.Testimonials h1 {
+  font-size: 48px;
+  text-align: center;
+  color: black;
+  margin-bottom: 10px;
+}
+
+.Testimonials .clients .client {
+  display: flex;
+  width: 400px;
+  color: white;
+}
+
+.Testimonials .clients .client img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+
+.Testimonials .clients {
+  background-color: #28225f;
+  width: 400px;
+  padding: 20px;
+  border-radius: 50px;
+}
+
+.Testimonials .box-testimonials {
+  width: 1000px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.Testimonials .garis {
+  height: 2px;
+  width: 400px;
+  background-color: black;
+  margin: auto;
+  margin-bottom: 30px;
+  margin-top: -20px;
+}
+
+.Testimonials .ulasan {
+  color: white;
+}
+
+.Portfolio {
+  margin-top: 100px;
+}
+
+.Portfolio h1 {
+  text-align: center;
+  color: black;
+  font-size: 48px;
+}
+
+.Portfolio .garis {
+  height: 2px;
+  width: 200px;
+  background-color: black;
+  margin: auto;
+  margin-bottom: 30px;
+  margin-top: -20px;
+}
+
+.Portfolio .box {
+  width: 1000px;
+  height: 1000px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  flex-wrap: wrap;
+}
+
+.Portfolio .box .items {
+  background-color: #28225f;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: start;
+  border-radius: 15px;
+  /* width: 400px; */
+  padding: 30px;
+  height: 350px;
+}
+
+.Portfolio .box .items img {
+  width: 300px;
+  height: 300px;
+}
+
+.Portfolio .box .items h4 {
+  color: white;
+  margin-top: 10px;
+}
+
+.Portfolio .box .items p {
+  color: #0af058;
+  margin-top: 10px;
+}
+
+.contacts {
+  margin-top: 100px;
+}
+
+.contacts h1 {
+  color: black;
+  text-align: center;
+  font-size: 48px;
+}
+
+.contacts .garis {
+  height: 2px;
+  width: 200px;
+  background-color: black;
+  margin: auto;
+  margin-bottom: 30px;
+  margin-top: -20px;
+}
+
+.contacts .contacts-box {
+  display: flex;
+  gap: 30px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 50px;
+}
+
+.contacts .contacts-box .contacts-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: black;
+  background-color: #28225f;
+  border-radius: 200px;
+  width: 550px;
+  height: 80px;
+  padding: 0 40px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.contacts .contacts-box .contacts-item .item-email,
+.contacts .contacts-box .contacts-item .item-phone,
+.contacts .contacts-box .contacts-item .item-ig {
+  border-radius: 10px;
+  padding: 15px;
+}
+
+.contacts .contacts-box .contacts-item .item-email img,
+.contacts .contacts-box .contacts-item .item-phone img,
+.contacts .contacts-box .contacts-item .item-ig img {
+  width: 100px;
+  height: 100px;
+}
+
+footer {
+  background-color: #151469;
+  margin-top: 300px;
+  /* height: 500px; */
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 30px;
+  padding-bottom: 20px;
+  gap: 20px;
+  color: white;
+}
+
+footer h2 {
+  font-size: 38px;
+  color: black;
+}
+
+footer .garis-footer {
+  width: 430px;
+  height: 3px;
+  background-color: black;
+  margin-top: -40px;
+}
+
+footer a {
+  color: white;
+  text-decoration: none;
+}
+
+.footer-contact {
+  display: flex;
+  gap: 30px;
+}
+
+.footer-sosmed {
+  width: 300px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-nav {
+  width: 70%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-contact i {
+  margin-right: 20px;
+  color: black;
+}
+
+footer .footer-dua {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+@media (max-width: 768px) {
+  html {
+    font-size: 65%;
+  }
+}
+
+@media (max-width: 450px) {
+  html {
+    font-size: 55%;
+  }
+}
